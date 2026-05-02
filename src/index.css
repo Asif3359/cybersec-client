@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* only minimal reset */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0f172a; /* dark cyber look */
+  color: white;
+}
+
+#root {
+  min-height: 100vh;
+}
