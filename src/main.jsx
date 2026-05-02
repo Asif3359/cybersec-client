@@ -14,6 +14,7 @@ import Support from "./pages/Support";
 import Login from "./pages/login";
 import Register from "./pages/Registration";
 import VerifyOTP from "./pages/VerifyOtp";
+import Dashboard from "./pages/Dashboard";
 
 
 const router = createBrowserRouter([
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
  {
     path: "/verify",
     element: <VerifyOTP></VerifyOTP>
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />
   }
 ]);
 
